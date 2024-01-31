@@ -18,3 +18,19 @@
   border: 2px solid #080808;
   box-shadow: 5px 3px 8px 0px #000000;
 }
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+.titreBoite {
+  text-align: center;
+  margin-top: 2%;
+}
+.boiteJeuxWd {
+  width: 65%;
+  margin-left: 24%;
+}
+.boite {
+  display: flex;
+  flex-direction: column;
+}
