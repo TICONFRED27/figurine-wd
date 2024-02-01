@@ -20,9 +20,21 @@
 }
 
 .photoAtelier1 {
+  width: 61%;
   margin-top: 1%;
   border: 2px solid #080808;
   box-shadow: 5px 3px 8px 0px #000000;
+}
+.photoAtelier2 {
+  width: 35%;
+  margin-top: 1%;
+  border: 2px solid #080808;
+  box-shadow: 5px 3px 8px 0px #000000;
+  margin-left: 3%;
+}
+.titreAtelier {
+  text-align: center;
+  margin-top: 4%;
 }
 .texteAteliers {
   border: 2px solid #080808;
@@ -32,10 +44,7 @@
   box-shadow: 5px 3px 8px 0px #000000;
   background-color: darkgrey;
 }
-.titreAtelier {
-  text-align: center;
-  margin-top: 2%;
-}
+
 .perspeindre {
   width: 40%;
   margin-top: 3%;
@@ -49,6 +58,7 @@
   box-shadow: 5px 3px 8px 0px #000000;
 }
 .containerPeindre {
+  margin-top: 4%;
   display: flex;
   align-items: flex-start;
 }
@@ -56,6 +66,7 @@
 .containerDecors {
   display: flex;
   align-items: flex-start;
+  margin-top: 4%;
 }
 .textExp {
   margin-top: 3%;
@@ -68,7 +79,7 @@
 }
 .titreAteliers2 {
   text-align: center;
-  margin-top: 4%;
+  margin-top: 7%;
 }
 .lesAteliers {
   display: flex;
