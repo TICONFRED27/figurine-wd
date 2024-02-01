@@ -12,7 +12,7 @@ function Navbar() {
         </li>
         <li className="navbar__li">
           <a className="navbar__a" href="#Atelier">
-            Ateliers
+            Atelier
           </a>
         </li>
         <li className="navbar__li">
