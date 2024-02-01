@@ -1,3 +1,5 @@
+//version mobile
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +12,7 @@
 
 .title {
   text-align: center;
-  font-size: 60px;
+  font-size: 36px;
   margin-bottom: 1%;
 }
 .titleatelier {
@@ -20,7 +22,7 @@
 }
 
 .photoAtelier1 {
-  width: 61%;
+  width: 60%;
   margin-top: 1%;
   border: 2px solid #080808;
   box-shadow: 5px 3px 8px 0px #000000;
@@ -84,4 +86,95 @@
 .lesAteliers {
   display: flex;
   flex-direction: column;
+}
+
+//version destop
+@media screen and (min-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .contenu {
+    margin: 1%;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 1%;
+  }
+  .titleatelier {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+  }
+
+  .photoAtelier1 {
+    width: 61%;
+    margin-top: 1%;
+    border: 2px solid #080808;
+    box-shadow: 5px 3px 8px 0px #000000;
+  }
+  .photoAtelier2 {
+    width: 35%;
+    margin-top: 1%;
+    border: 2px solid #080808;
+    box-shadow: 5px 3px 8px 0px #000000;
+    margin-left: 3%;
+  }
+  .titreAtelier {
+    text-align: center;
+    margin-top: 4%;
+  }
+  .texteAteliers {
+    border: 2px solid #080808;
+    margin-top: 1%;
+    padding: 1%;
+    line-height: 2;
+    box-shadow: 5px 3px 8px 0px #000000;
+    background-color: darkgrey;
+  }
+
+  .perspeindre {
+    width: 40%;
+    margin-top: 3%;
+    border: 3px solid #080808;
+    box-shadow: 5px 3px 8px 0px #000000;
+  }
+  .decors {
+    width: 40%;
+    margin-top: 3%;
+    border: 3px solid #080808;
+    box-shadow: 5px 3px 8px 0px #000000;
+  }
+  .containerPeindre {
+    margin-top: 4%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .containerDecors {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 4%;
+  }
+  .textExp {
+    margin-top: 3%;
+    margin-left: 3%;
+    border: 2px solid #080808;
+    padding: 1%;
+    line-height: 2;
+    box-shadow: 5px 3px 8px 0px #000000;
+    background-color: darkgrey;
+  }
+  .titreAteliers2 {
+    text-align: center;
+    margin-top: 7%;
+  }
+  .lesAteliers {
+    display: flex;
+    flex-direction: column;
+  }
 }
