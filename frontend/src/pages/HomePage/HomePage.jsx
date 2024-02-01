@@ -14,7 +14,7 @@ function HomePage() {
             Post-Apocalyptique
           </h2>
           <img
-            src="src/assets/boiteJeuxWd.jpeg"
+            src="src/assets/boitewalkingdead.webp"
             alt=""
             className="boiteJeuxWd"
           />
