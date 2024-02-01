@@ -14,7 +14,7 @@
   margin-bottom: 1%;
 }
 .WdAllOutWar {
-  margin-top: 1%;
+  margin-top: 4%;
   border: 2px solid #080808;
   box-shadow: 5px 3px 8px 0px #000000;
 }
@@ -24,7 +24,6 @@
 }
 .titreBoite {
   text-align: center;
-  margin-top: 2%;
 }
 .boiteJeuxWd {
   width: 65%;
@@ -36,10 +35,11 @@
 .boite {
   display: flex;
   flex-direction: column;
+  margin-top: 4%;
 }
 .descriptionJeux {
   border: 2px solid #080808;
-  margin-top: 2%;
+  margin-top: 1%;
   padding: 1%;
   width: 91%;
   line-height: 2;
