@@ -39,6 +39,14 @@ function Atelier() {
         voir parmi nous et de découvrir ensemble l'art extraordinaire de la
         peinture de figurines et de la création de décors en maquette!
       </p>
+      <img
+        src="src/assets/personnequi peint.webp"
+        alt=""
+        className="perspeindre"
+      />
+      <p>rgojtorbgij</p>
+      <img src="src/assets/personnedecord.webp" alt="" className="decors" />
+      <p>rgojtorbgij</p>
     </div>
   );
 }
