@@ -8,6 +8,7 @@ function Atelier() {
       <Navbar />
       <h2 className="titleatelier">Atelier</h2>
       <img src="src/assets/atelier1.png" alt="" className="photoAtelier1" />
+      <img src="src/assets/atelier2.png" alt="" className="photoAtelier2" />
       <h2 className="titreAtelier">
         Bienvenue à l'Atelier de Peinture de Figurines et Création de Décors
       </h2>
