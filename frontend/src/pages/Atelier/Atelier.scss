@@ -38,13 +38,39 @@
 }
 .perspeindre {
   width: 40%;
-  margin-top: 1%;
+  margin-top: 3%;
   border: 3px solid #080808;
   box-shadow: 5px 3px 8px 0px #000000;
 }
 .decors {
   width: 40%;
-  margin-top: 1%;
+  margin-top: 3%;
   border: 3px solid #080808;
   box-shadow: 5px 3px 8px 0px #000000;
+}
+.containerPeindre {
+  display: flex;
+  align-items: flex-start;
+}
+
+.containerDecors {
+  display: flex;
+  align-items: flex-start;
+}
+.textExp {
+  margin-top: 3%;
+  margin-left: 3%;
+  border: 2px solid #080808;
+  padding: 1%;
+  line-height: 2;
+  box-shadow: 5px 3px 8px 0px #000000;
+  background-color: darkgrey;
+}
+.titreAteliers2 {
+  text-align: center;
+  margin-top: 4%;
+}
+.lesAteliers {
+  display: flex;
+  flex-direction: column;
 }
