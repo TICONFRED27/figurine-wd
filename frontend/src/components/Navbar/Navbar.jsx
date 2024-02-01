@@ -6,22 +6,22 @@ function Navbar() {
     <nav className="navbar">
       <ul className="navbar__ul">
         <li className="navbar__li">
-          <a className="navbar__a" href="#">
+          <a className="navbar__a" href="#Acceuil">
             Acceuil
           </a>
         </li>
         <li className="navbar__li">
-          <a className="navbar__a" href="#">
+          <a className="navbar__a" href="#Atelier">
             Ateliers
           </a>
         </li>
         <li className="navbar__li">
-          <a className="navbar__a" href="#">
+          <a className="navbar__a" href="#Catalogue">
             Catalogue
           </a>
         </li>
         <li className="navbar__li">
-          <a className="navbar__a" href="#">
+          <a className="navbar__a" href="#Contact">
             Contact
           </a>
         </li>
