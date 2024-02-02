@@ -41,7 +41,7 @@ function HomePage() {
           <img
             src="src/assets/boitezombicide.webp"
             alt=""
-            className="boiteJeuxzomb"
+            className="boiteJeuxZomb"
           />
         </div>
       </div>
