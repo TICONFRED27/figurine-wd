@@ -1,3 +1,5 @@
+//version mobile
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 .navbar {
   width: 100%;
   background-color: black;
-  height: 9vh;
+  height: 5vh;
   box-shadow: 1px 2px 8px 0px #000000;
 }
 
@@ -18,10 +20,41 @@
 }
 
 .navbar__li {
-  padding: 22px;
-  font-size: 25px;
+  padding: 1%;
+  font-size: 1rem;
 }
 .navbar__a {
   color: aliceblue;
   font-size: 25px;
+}
+
+//version desktope
+@media screen and (min-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  .navbar {
+    width: 100%;
+    background-color: black;
+    height: 9vh;
+    box-shadow: 1px 2px 8px 0px #000000;
+  }
+
+  .navbar__ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navbar__li {
+    padding: 22px;
+    font-size: 25px;
+  }
+  .navbar__a {
+    color: aliceblue;
+    font-size: 25px;
+  }
 }
