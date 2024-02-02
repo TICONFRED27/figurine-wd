@@ -1,3 +1,4 @@
+//version portable
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,8 @@
   margin-bottom: 1%;
 }
 .WdAllOutWar {
-  margin-top: 4%;
+  width: 100%;
+  margin-top: 8%;
   border: 2px solid #080808;
   box-shadow: 5px 3px 8px 0px #000000;
 }
@@ -41,7 +43,7 @@
   border: 2px solid #080808;
   margin-top: 1%;
   padding: 1%;
-  width: 91%;
+  width: 77%;
   line-height: 2;
   box-shadow: 5px 3px 8px 0px #000000;
   background-color: darkgrey;
@@ -58,10 +60,81 @@
   text-align: center;
   margin-top: 5%;
 }
-.boiteJeuxzomb {
-  width: 62%;
-  margin-left: 24%;
+.boiteJeuxZomb {
+  width: 55%;
+  margin-left: 22%;
   box-shadow: 5px 3px 8px 0px #000000;
   border: 2px solid #080808;
   margin-top: 4%;
+}
+
+//version desktope
+@media screen and (min-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .contenu {
+    margin: 1%;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 1%;
+  }
+  .WdAllOutWar {
+    margin-top: 4%;
+    border: 2px solid #080808;
+    box-shadow: 5px 3px 8px 0px #000000;
+  }
+  .container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .titreBoite {
+    text-align: center;
+  }
+  .boiteJeuxWd {
+    width: 65%;
+    margin-left: 24%;
+    box-shadow: 5px 3px 8px 0px #000000;
+    border: 2px solid #080808;
+    margin-top: 4%;
+  }
+  .boite {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+  .descriptionJeux {
+    border: 2px solid #080808;
+    margin-top: 1%;
+    padding: 1%;
+    width: 77%;
+    line-height: 2;
+    box-shadow: 5px 3px 8px 0px #000000;
+    background-color: darkgrey;
+  }
+  .container1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .boite1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .titreBoite1 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .boiteJeuxZomb {
+    width: 55%;
+    margin-left: 22%;
+    box-shadow: 5px 3px 8px 0px #000000;
+    border: 2px solid #080808;
+    margin-top: 4%;
+  }
 }
