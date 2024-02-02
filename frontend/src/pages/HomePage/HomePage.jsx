@@ -36,6 +36,7 @@ function HomePage() {
           expérience de jeu captivante et une rejouabilité élevée grâce à ses
           nombreux scénarios et extensions disponibles.
         </p>
+
         <div className="boite1">
           <h2 className="titreBoite1">Zombicide nouvelle sortie</h2>
           <img
