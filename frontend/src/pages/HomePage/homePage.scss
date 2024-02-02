@@ -6,13 +6,13 @@
 }
 
 .contenu {
-  margin: 1%;
+  margin: 2%;
 }
 
 .title {
   text-align: center;
   font-size: 60px;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 .WdAllOutWar {
   width: 100%;
@@ -28,7 +28,7 @@
   text-align: center;
 }
 .boiteJeuxWd {
-  width: 65%;
+  width: 55%;
   margin-left: 24%;
   box-shadow: 5px 3px 8px 0px #000000;
   border: 2px solid #080808;
@@ -47,6 +47,8 @@
   line-height: 2;
   box-shadow: 5px 3px 8px 0px #000000;
   background-color: darkgrey;
+  overflow-y: scroll;
+  height: 15rem;
 }
 .container1 {
   display: flex;
@@ -55,8 +57,10 @@
 .boite1 {
   display: flex;
   flex-direction: column;
+  width: 60%;
 }
 .titreBoite1 {
+  //font-size: 1rem;
   text-align: center;
   margin-top: 5%;
 }
@@ -96,6 +100,8 @@
   }
   .titreBoite {
     text-align: center;
+    font-size: 27px;
+    margin-left: 10%;
   }
   .boiteJeuxWd {
     width: 65%;
@@ -113,10 +119,12 @@
     border: 2px solid #080808;
     margin-top: 1%;
     padding: 1%;
-    width: 77%;
+    width: 75%;
     line-height: 2;
     box-shadow: 5px 3px 8px 0px #000000;
     background-color: darkgrey;
+    height: auto;
+    overflow: hidden;
   }
   .container1 {
     display: flex;
@@ -127,6 +135,7 @@
     flex-direction: column;
   }
   .titreBoite1 {
+    font-size: 27px;
     text-align: center;
     margin-top: 5%;
   }
